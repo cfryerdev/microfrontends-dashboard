@@ -1,0 +1,20 @@
+@import 'bootstrap.scss';
+
+/* Turn off right justify title in mobile */
+.navbar-brand {
+    margin-right: auto !important;
+}
+  
+.container,
+.container-fluid {
+    margin-top: 20px;
+}
+
+.app-card {
+  width: 260px;
+}
+
+.app-card:hover {
+  background: #393939;
+  box-shadow: 0px 0px 3px 3px rgb(42, 42, 42);
+}

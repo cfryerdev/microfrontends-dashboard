@@ -1,0 +1,13 @@
+{
+  "name": "microfrontends-nextjs-react",
+  "version": "1.0.0",
+  "description": "Microfrontends using a NextJS Host and React remotes",
+  "author": "Chris Fryer <cfryerdev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "pnpm -r --no-bail --workspace-concurrency 100 start"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
